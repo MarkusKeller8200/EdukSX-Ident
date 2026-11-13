@@ -11,6 +11,61 @@
     "vorlage": "Vorlagen, Formatbeschreibungen und Texte"
   },
   "items": [
-    {"id": "app", "group": "app", "name": "EduKSX-Ident", "use": "Dieses Projekt", "license": "AGPL-3.0-or-later", "url": "https://github.com/MarkusKeller8200/EdukSX-Ident"}
+    {
+      "id": "app",
+      "group": "app",
+      "name": "EduKSX-Ident",
+      "use": "Dieses Projekt",
+      "license": "AGPL-3.0-or-later",
+      "url": "https://github.com/MarkusKeller8200/EdukSX-Ident"
+    },
+    {
+      "id": "laravel/framework",
+      "group": "laufzeit",
+      "name": "Laravel Framework",
+      "use": "Grundlage der Anwendung (^13)",
+      "license": "MIT",
+      "url": "https://github.com/laravel/framework"
+    },
+    {
+      "id": "eduksx/core",
+      "group": "laufzeit",
+      "name": "EduKSX-Core",
+      "use": "Gemeinsame Bausteine der Plattform",
+      "license": "MIT",
+      "url": "https://github.com/MarkusKeller8200/EduKSX-Core"
+    },
+    {
+      "id": "zitadel",
+      "group": "extern",
+      "name": "Zitadel",
+      "use": "Identity-Provider (eigener Container, unverändert)",
+      "license": "AGPL-3.0",
+      "url": "https://github.com/zitadel/zitadel"
+    },
+    {
+      "id": "laravel/pint",
+      "group": "entwicklung",
+      "name": "Laravel Pint",
+      "use": "Formatierung",
+      "license": "MIT",
+      "url": "https://github.com/laravel/pint"
+    },
+    {
+      "id": "phpunit/phpunit",
+      "group": "entwicklung",
+      "name": "PHPUnit",
+      "use": "Tests",
+      "license": "BSD-3-Clause",
+      "url": "https://github.com/sebastianbergmann/phpunit"
+    },
+    {
+      "id": "shivammathur/setup-php",
+      "group": "entwicklung",
+      "name": "setup-php (GitHub Action)",
+      "use": "PHP 8.4 im Workflow tests",
+      "license": "MIT",
+      "url": "https://github.com/shivammathur/setup-php"
+    }
   ]
 }

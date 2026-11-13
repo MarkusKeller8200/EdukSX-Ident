@@ -1,6 +1,6 @@
 # Übergabe an einen neuen Chat – EduKSX-Ident
 
-Stand: **JJJJ-MM-TT (hh:mm)** – ein Satz zum Stand (letztes Release, laufender Meilenstein, was im Beta-Test ist).
+Stand: **13.11.2026 (23:30)** – ein Satz zum Stand (letztes Release, laufender Meilenstein, was im Beta-Test ist).
 [PROJEKTSTAND.md](PROJEKTSTAND.md) (aktuell), [PROJEKTSTAND-ARCHIV.md](PROJEKTSTAND-ARCHIV.md) (Verlauf), Konzepte in
 `docs/KONZEPT-*.md`. Bei jeder Übergabe nachführen.
 
@@ -32,6 +32,14 @@ Schliessen erst nach «getestet ok» bzw. abgehakter Testliste.
 - Löschen nur nach Rückfrage.
 
 ## Sitzungen
+
+### Sitzung 13.11.2026 (23:10–23:30) – Start
+
+- Blueprint angewendet (AGPL-3.0, öffentlich, Workflow `tests`), Issues #2–#6 im Meilenstein «0.1.0 – Brücke».
+- Brücke aus den PoC-Stubs als Laravel-App umgesetzt; End-to-End gegen PoC-Zitadel geprüft (Edulog-Vorschlag →
+  Bestätigung → Rollen im Token; Schülerin abgewiesen).
+- Werkzeuge zum PoC: EduKSX-Architektur `poc/ident-zitadel/` (Zitadel, Login V2, Edulog-Ersatz).
+
 
 Neueste oben. Je Sitzung: Datum und Zeit, Thema, umgesetzte Issues, Entscheide (mit Datum), Offenes. Ältere Sitzungen
 gelegentlich gekürzt nach `PROJEKTSTAND-ARCHIV.md` verschieben.
